@@ -82,6 +82,18 @@ PRODUCT_PACKAGES := \
     com.android.future.usb.accessory \
     whisperd
 
+# Live Wallpapers
+PRODUCT_PACKAGES += \
+        Galaxy4 \
+        HoloSpiralWallpaper \
+        LiveWallpapers \
+        LiveWallpapersPicker \
+        MagicSmokeWallpapers \
+        NoiseField \
+        PhaseBeam \
+        VisualizationWallpapers \
+        librs_jni
+
 PRODUCT_CHARACTERISTICS := tablet
 
 # we have enough storage space to hold precise GC data
